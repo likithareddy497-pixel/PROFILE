@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://127.0.0.1:5500/profile.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="http://127.0.0.1:5500/image/IMG_20250811_080751413~2.jpg" type=".jpg">
+    <title>profile</title>
+</head>
+<body>
+    <h1>HELLO!</h1>
+    <h1><u>LIKITHA GATTIREDDY'S PROFILE</u></h1>
+    <h2>Welcome to my profile page-This is my profile page -Created using only HTML</h2>
+    <form>
+        <label for="student_name"></label><b>NAME_OF_STUDENT:-</b>
+        <input id="student_name" type="text" placeholder="Gatti Reddy Likitha" required="">
+        <br>
+        <label for="COLLEGE_NAME"> <b>NAME_OF_COLLEGE_STUDING:-</b></label>
+        <input id="COLLEGE_NAME" type="text" required="" placeholder="JNTUA">
+        <br>
+        <label for="branch"> <b>BRANCH:-</b></label>
+        <input id="branch" type="text" required="" placeholder="CSE">
+        <br>
+        <label for="programming language"> <b>PROGRAMMING_LANGUAGES_LEARNED:-</b></label>
+        <input id="programming language" type="text" placeholder="HTML,CSS(learning)" required="">
+        <br>
+        <label for="intrested_in"> <b>INTRESTED_IN:-</b></label>
+        <input for="intrested_in" type="text" placeholder="FRONTEND-DEVELOPMENT" required="">
+        <hr>
+    <b>MY PROFILE LINKS</b><br>
+    <h2>visit my GITHUB PROFILE for more details</h2>
+    <a href="https://github.com/likithareddy497-pixel/likithahtml" target="_blank" title="likitha&#39;s-GITHUB PAGE"><h4>for-github profile :click here</h4></a><br>
+    <h2>visit my LINKEDIN PROFILE for more details</h2>
+    <a href="https://www.linkedin.com/in/gatti-reddy-likitha-7b1402379/%22%22" target="_blank" title="likitha&#39;s-LINKEDIN PAGE"><h3>for-linkedin profile:click here</h3></a>
+        
+        
+        
+
+    </form>
+
+    
+    
+
+
+
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
